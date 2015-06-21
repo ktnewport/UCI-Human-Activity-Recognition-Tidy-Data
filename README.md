@@ -1,9 +1,10 @@
 # UCI-Human-Activity-Recognition-Tidy-Data
 Getting &amp; cleaning the UCI Human Acitivity Recognition dataset: scripts &amp; how-to
-author: "ktnewport"
+
 date: "June 18, 2015"
 output: pdf_document
 ---
+In this repo:  below on this README, you'll find the link to the original data and it's hosting website.  The run_analysis.R file is the R script that will take you from the unzipped UCI HAR data in it's original form to the tidy dataset described in the assignment. The UCI_HAR_tidy_data_CodeBook.Rmd will explain the variables and their codes found in the final tidy dataset.  I also included my produced UCI_HAR_tidy_dataset as a .txt file as an example of the finished product in this repo.
 
 Full description of the data, collection and methods, from the UCI Machine Learning Repository:
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
