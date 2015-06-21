@@ -16,7 +16,10 @@ Zipped data link: <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%
 
 The R script also in this GitHub repo will execute all necessary steps to output a tidy data set: run_analysis.R.  The qualifications for producing this tidy dataset were as follows: 1) merges the training and test dataset into one dataset, 2) extracts only measurements of the mean and standard deviation for each measurement, 3) uses descriptive activity names for the activites in the dataset, 4) labels data with descriptive variable names, 5) creates the tidy dataset with average values of each variable for each activity and subject.  
 
-The produced tidy dataset is also in this GitHub repo: "UCI_HAR_tidy_dataset.txt".  The steps and decisions to produce this dataset to meet the outlined qualifications are as follows:
+The produced tidy dataset is also in this GitHub repo: "UCI_HAR_tidy_dataset.txt".  
+
+The steps and decisions to produce this dataset to meet the outlined qualifications are as follows:
+
 1) Downloaded and unzipped the UCI HAR files outside of R, placed in desired working directory.  If this set of files is not in your current working directory, script will throw a warning message.
 
 2) Loaded packages plyr and dplyr to R console.
