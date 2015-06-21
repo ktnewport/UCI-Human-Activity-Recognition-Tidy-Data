@@ -4,7 +4,7 @@ In the new tidy dataset, in order of columns
 
 "Subject_ID" (30)
   Value (numeric)- 1:30
-  Represents: 30 individual subject of study
+  Represents: 30 individual subject of study. No units.
   
 "Activity" (6)
   Value (factor)- 
@@ -14,7 +14,7 @@ In the new tidy dataset, in order of columns
   [4] Walking           
   [5] Walking_Downstairs 
   [6] Walking_Upstairs  
-  Represents: the 6 different human activites the     subjects participated in during measurement collection.
+  Represents: the 6 different human activites the subjects participated in during measurement collection. No units.
 
 "Measurement" (22)
   Value (character)-
@@ -40,17 +40,17 @@ In the new tidy dataset, in order of columns
 [20] "tBodyGyroMag"             
 [21] "tGravityAcc"              
 [22] "tGravityAccMag" 
-  Represents: the measurements taken or calculated for this dataset to represent detection of human movement.
+  Represents: the measurements taken or calculated for this dataset to represent detection of human movement. No units.
   
 "M_Estimate" (2)
   Value (character) -
   [1] "mean" 
   [2] "std" 
-  Represents: whether the value was a calculation of the mean or standard deviation (std).
+  Represents: whether the value was a calculation of the mean or standard deviation (std). No units.
   
 "Average_Measurement" (length = 7020)  
   Value(numeric) - range: -0.9976661 - 0.6446043
-  Represents: the averaged measurement value.  The true dependent to the other variables, which were all factors in this dataset.  
+  Represents: the averaged measurement value.  The true dependent to the other variables, which were all factors in this dataset. Units = Hz?  Not really sure to be honest, couldn't really tell from the original data's README...  
 
 
 
