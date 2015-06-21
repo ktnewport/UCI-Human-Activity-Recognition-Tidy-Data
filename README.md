@@ -65,4 +65,4 @@ The produced tidy dataset is also in this GitHub repo: "UCI_HAR_tidy_dataset.txt
 
 
 
-See: UCI-HAR codebook for the final tidy dataset variables and variable codes. 
+See: UCI_HAR_tidy_data_CodeBook.Rmd for the final tidy dataset variables and variable codes. 
